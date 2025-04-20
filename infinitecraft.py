@@ -3,6 +3,7 @@ import bcrypt
 import json
 import cohere
 import time
+import calendar
 
 # File to save user data
 DATA_FILE = "user_data.json"
