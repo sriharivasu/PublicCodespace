@@ -1,0 +1,51 @@
+{
+    "Owner": {
+        "password": "$2b$12$TIy4MoDc3GG9sRRUPOsngu4S2MsX1BtfKYgBai8Z4iobuMdXKAHae",
+        "score": 16,
+        "inventory": [
+            "fire",
+            "water",
+            "earth",
+            "air",
+            "light",
+            "Dust",
+            "Dirt",
+            "Star",
+            "Star Dust",
+            "Smoke.",
+            "Nebula",
+            "Cloud",
+            "Cloud Dust",
+            "Sky",
+            "Galaxy",
+            "Star Cluster",
+            "Lava",
+            "Sun",
+            "Steam",
+            "Volcano",
+            "Solar System"
+        ]
+    },
+    "OWNER!!!": {
+        "password": "$2b$12$45KbdwtGuTDU5gqd5BVE9eyS1DCfb6nSOhNgtJ/2OR9.lujc.g/Vm",
+        "apikey": "$2b$12$fNhM9f4Cq5kZi142vmMWUuhtvtETUeDWhezQgnVkW3YVHDDa9OcM6",
+        "score": 10,
+        "inventory": [
+            "fire",
+            "water",
+            "earth",
+            "air",
+            "light",
+            "Dust",
+            "Lava",
+            "Sun",
+            "Sunlight",
+            "Steam",
+            "Plant",
+            "Sunflower",
+            "Sunflower Field",
+            "Pond",
+            "Photosynthesis"
+        ]
+    }
+}
