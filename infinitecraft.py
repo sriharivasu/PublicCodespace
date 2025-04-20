@@ -76,7 +76,6 @@ def login_dialog():
             st.session_state.apikeys = apikey2
             st.rerun()
 
-# === Load/Init Data ===
 user_data = load_user_data()
 
 if "user" not in st.session_state:
@@ -88,8 +87,6 @@ if "just_crafted" not in st.session_state:
 
 
 
-# === Sidebar UI ===
-st.sidebar.title("🧪 Elemental Crafter")
 
 if st.session_state.user:
     if st.session_state.user and st.session_state.user in user_data:
@@ -136,7 +133,7 @@ else:
             register_dialog()
 
 # === Main Area ===
-st.title("⚗️ Infinite Craft Prototype")
+st.title("⚗️ Elemental Craft")
 
 if st.session_state.user:
     selected = st.session_state.selected_elements
