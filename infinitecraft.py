@@ -134,7 +134,7 @@ else:
 
 # === Main Area ===
 st.title("⚗️ Elemental Craft")
-st.caption("The way you play is by clicking 2 buttons (elements) on the sidebar (left) and if it's a valid/n combination, it'll give a new element. It is turing complete, meaning that you can achieve/n whatever you want. Eventually.")
+st.caption("The way you play is by clicking 2 buttons (elements) on the sidebar (left) and if it's a valid combination, it'll give a new element. It is turing complete, meaning that you can achieve whatever you want. Eventually.")
 
 if st.session_state.user:
     selected = st.session_state.selected_elements
