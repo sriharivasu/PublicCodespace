@@ -35,7 +35,7 @@ def register_dialog():
     new_user = st.text_input("Username", key="reg_user")
     new_pass = st.text_input("Password", type="password", key="reg_pass")
     confirm = st.text_input("Confirm Password", type="password", key="reg_confirm")
-    apikey = st.text_input("API Key", type="password", key="reg_apikey")
+    apikey = st.text_input("API Key (Get one **[here](https://dashboard.cohere.com/api-keys)**)", type="password", key="reg_apikey")
 
     if st.button("Register"):
         if new_user in user_data:
@@ -52,7 +52,7 @@ def register_dialog():
             save_user_data(user_data)
             st.success("Registration successful!")
             if "apikeys" not in st.session_state:
-                st.session_state.apikeys = apikey2
+                st.session_state.apikeys = apikey
             st.session_state.user = new_user
             st.rerun()
 
@@ -73,8 +73,7 @@ def login_dialog():
         else:
             st.success("Login successful!")
             st.session_state.user = username
-            if "apikeys" not in st.session_state:
-                st.session_state.apikeys = apikey2
+            st.session_state.apikeys = apikey2
             st.rerun()
 
 # === Load/Init Data ===
