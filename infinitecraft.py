@@ -61,7 +61,7 @@ def login_dialog():
     st.write("Log in to your account")
     username = st.text_input("Username", key="log_user")
     password = st.text_input("Password", type="password", key="log_pass")
-    apikey2 = st.text_input("Cohere API Key (See your's **[here](https://dashboard.cohere.com/api-keys)**)", type="password", key="log_apikey")
+    apikey2 = st.text_input("Cohere API Key (See yours **[here](https://dashboard.cohere.com/api-keys)**)", type="password", key="log_apikey")
 
     if st.button("Login"):
         if username not in user_data:
